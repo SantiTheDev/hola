@@ -1,7 +1,5 @@
-import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -18,10 +16,10 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Santiago</span>
           </h1>
           <p className={`${styles.heroSubText}`}>
-            I'm a <span className="text-[#915eff]">Fullstack Developer</span>{" "}
+            I'm a <span className="text-[#915eff]">Fullstack Developer </span>
             based in <span className="text-[#915eff]">Colombia.</span>
             <br />
-            Cybersecurity enthusiast and passionate about technology
+            Cybersecurity enthusiast and passionate about technology.
           </p>
         </div>
       </div>

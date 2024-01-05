@@ -1,7 +1,6 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -15,16 +14,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   caps,
   incubapp,
+  cowiz,
+  instabot,
+  ciberblog,
 } from "../assets";
 
 export const navLinks = [
@@ -35,6 +30,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -196,57 +195,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Grownth Services",
-    description: "Level up your marketing   t.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
+    name: "Ciber blog",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A blog when i will share my path to become an cibersecurity engeenier, and also write solution to challenges or tryhackme rooms writeups",
     tags: [
       {
-        name: "react",
+        name: "svelte",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -254,8 +212,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ciberblog,
+    source_code_link: "https://github.com/GrowthService/gr-dxp-sls",
+  },
+  {
+    name: "Cowiz",
+    description:
+      "Web application that enables user to keep track assets on their company, also help with the life cicle of and assets",
+    tags: [
+      {
+        name: "Svelte",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cowiz,
+    source_code_link: "https://github.com/ojedasodev/Co.Wiz",
+  },
+  {
+    name: "Instagram bot",
+    description:
+      "A bot disigned by me for scraping media from instagram, enables the user collect names, bios, photos and videos using a pivot account.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "instagram",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: instabot,
+    source_code_link: "https://github.com/ojedasodev/Instagram-Bot",
   },
 ];
 

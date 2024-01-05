@@ -27,11 +27,14 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import caps from "./company/caps.png";
-import incubapp from "./company/incubapp.png"
+import incubapp from "./company/incubapp.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import cowiz from "./cowiz.png";
+import instabot from "./instabot.png";
+import ciberblog from "./ciber-blog.png";
 
 export {
   logo,
@@ -65,4 +68,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  cowiz,
+  instabot,
+  ciberblog,
 };
